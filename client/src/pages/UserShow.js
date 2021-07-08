@@ -9,7 +9,7 @@ import { Card } from 'semantic-ui-react'
 const UserShow = () => {
 
     const { id } = useParams()
-    const { data, error, loading, grade } = useAxiosOnMount(`/api/users/${id}`)
+    const { data, error, loading } = useAxiosOnMount(`/api/users/${id}`)
 
     if(loading) return <Spinner />
     if(error) return <ErrorMessage error={error}/>

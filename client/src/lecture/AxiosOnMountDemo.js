@@ -1,6 +1,5 @@
 import React from 'react'
 import ErrorMessage from '../components/ErrorMessage'
-import FormattedMessage from '../components/FormattedMessage'
 import Spinner from '../components/Spinner'
 import StringifyJSON from '../components/StringifyJSON'
 import useAxiosOnMount from '../customHooks/useAxiosOnMount'

@@ -1,7 +1,7 @@
 import React from 'react'
 import FormattedMessage from '../components/FormattedMessage'
 import AxiosOnMount from '../lecture/AxiosOnMountDemo'
-import HookDemo from '../lecture/HookDemo'
+
 
 const Examples = (props) => {
     return (

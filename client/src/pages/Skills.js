@@ -1,9 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import ErrorMessage from '../components/ErrorMessage'
 import List from '../components/List'
 import Spinner from '../components/Spinner'
-import StringifyJSON from '../components/StringifyJSON'
 import useAxiosOnMount from '../customHooks/useAxiosOnMount'
 import Skill from './Skill'
 

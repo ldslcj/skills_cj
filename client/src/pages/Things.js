@@ -16,6 +16,7 @@ const Things = () => {
       try {
          let res = await axios.get('/api/things')
          console.log(res)
+         setThings(res.data)
       } catch(err){
           console.log(err)
          alert('err')

@@ -23,4 +23,5 @@ john.grades.create(skill_id: hw2.id, score:8)
 
 ruby.grades.create(user_id: jim.id, score:8)
 rails.grades.create(user_id: jim.id, score:5)
+rails.grades.create(user_id: jen.id, score:7)
 ruby.grades.create(user_id: jen.id, score:7)

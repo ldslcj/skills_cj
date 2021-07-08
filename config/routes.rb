@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     resources :skills
     resources :grades
     resources :users
+
   end 
 end

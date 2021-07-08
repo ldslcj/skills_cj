@@ -15,10 +15,10 @@ const Users = () => {
     return (
         <div>
             <List
-                renderData={(u) => {
+                renderData={(user) => {
                     return (
-                    <Link to={`/users/${u.id}`}>
-                        <h1>{u.name}</h1>
+                    <Link key={user.id} to={`/users/${user.id}`}>
+                        <h1>{user.name}</h1>
                     </Link>)
                 }}
                 data={data} 

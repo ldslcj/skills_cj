@@ -4,7 +4,6 @@ import { Card } from 'semantic-ui-react'
 import ErrorMessage from '../components/ErrorMessage'
 import List from '../components/List'
 import Spinner from '../components/Spinner'
-import StringifyJSON from '../components/StringifyJSON'
 import useAxiosOnMount from '../customHooks/useAxiosOnMount'
 
 const SkillShow = () => {

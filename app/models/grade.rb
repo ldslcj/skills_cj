@@ -3,7 +3,7 @@ class Grade < ApplicationRecord
   belongs_to :skill
 
   def self.all_and_then_some
-    grades = Grade.all
+    grades = self.all
     grades.map do |grade|
       {
       id: grade.id,
